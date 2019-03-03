@@ -1,0 +1,193 @@
+#logo {
+    float: left;
+    width: 110px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: brown;
+    font-family: Arial;
+    border-radius: 1% 999% 59% 1%;
+    border: 2px solid black;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: inherit;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.fa-caret-down: {
+    content: "\f107";
+
+}
+
+.fa-facebook-square {
+    content: "\f230";
+}
+
+.fa-twitter-square {
+    content: "\f081";
+}
+
+.fa-instagram {
+    content: "\f16d";
+}
+
+.fa-rss {
+    content: "\f09e";
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    border: 2px solid black;
+    padding: 5px 5px;
+}
+
+.icons {
+    padding: 2px 5px;
+    float: right;
+}
+
+table,
+th,
+td {
+    border: 1px solid #420651;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 22px;
+    color: #420651;
+    width: 600px;
+    height: 80px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+table {
+    border: 5px solid #420651;
+    margin: 20px 60px;
+    box-shadow: 15px 30px 30px #46224f;
+}
+
+th {
+    background-color: saddlebrown;
+    border-bottom: 8px solid #420651;
+    height: 40px;
+}
+
+td {
+    font-weight: bold;
+    background-color: sandybrown;
+}
+
+#roll,
+#start,
+#newGame {
+    visibility: hidden;
+}
+
+#kamuoliukas {
+    display: inline;
+    position: absolute;
+    right: 120px;
+    top: 160px;
+    width: 330px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 80px;
+    font-family: Arial;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    border-radius: 100% 100% 100% 100%;
+    text-shadow: -2px 0 #420651, 0 2px #420651, 2px 0 #420651, 0 -2px #420651;
+}
+
+.button {
+    margin: 10px 60px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.purple {
+    background-color: #420651
+}
+
+.purple:hover {
+    background-color: #46224f
+}
+
+.left {
+    float: left;
+}

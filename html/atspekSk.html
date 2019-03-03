@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="../js/loterija.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/atspekSk.js"></script>
+<link rel="stylesheet" href="../css/main.css">
+<title>Loto loto</title>
+
+<body>
+    <header>
+        <img id="logo" src="../img/loto.png" alt="loto">
+
+        <div class="navbar">
+
+            <a href="../index.html">Pagrindinis</a>
+            <a href="loterija.html">Loterija</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Žaidimai
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Atspėk Skaičių</a>
+                    <a href="#">...</a>
+                    <a href="#">...</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>
+                    <h1>Atspėk skaičių!</h1>
+                </legend>
+                <p>Įveskite skaičių nuo <b id="int">1</b> iki <b id="int">100</b>.</p>
+                <p>x =
+                    <input type="number" id="skaicius"><br />
+                </p>
+                <div class="a">
+                    <button type="button" onclick="spek()">Spėti</button>
+                </div>
+                <p id="ats"></p>
+            </fieldset>
+            <p id="correct"></p>
+        </form>
+    </main>
+    <footer>
+        &copy; Ramūnas Danupas ŽP2
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-rss"></i>
+        </div>
+    </footer>
+</body>
+
+</html>

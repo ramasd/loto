@@ -1,0 +1,26 @@
+#int {
+    color: darkblue;
+}
+
+h3 {
+    color: darkgreen;
+    background-color: yellow;
+}
+
+h2 {
+    color: yellow;
+    background-color: darkslategray;
+}
+
+h1 {
+    background-color: darkslategrey;
+    color: yellow;
+    padding: 5px;
+}
+
+#correct,
+p,
+.btn,
+.a {
+    text-align: center;
+}
